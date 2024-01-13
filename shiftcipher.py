@@ -32,7 +32,7 @@ def decrypt(user_input: str) -> None:
                 new_sentence += next_letter
             else:
                 new_sentence += " "
-        print(new_sentence)
+        print(f"{i + 1}. {new_sentence}")
         sentence = new_sentence
 
 
