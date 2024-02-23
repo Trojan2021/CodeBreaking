@@ -36,7 +36,7 @@ func main() {
 		fmt.Scanln(&userChoice)
 	}
 	var userInput string
-	fmt.Println("Please enter the enciphered message")
+	fmt.Println("Please enter the enciphered message:")
 	userInput, _ = reader.ReadString('\n')
 	if userChoice == "1" {
 		encrypt(userInput)
